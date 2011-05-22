@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Changed everything to correct images, added correct ID's buttons, took out padding, used layout weight, background needs to be transparent, need to tweak it for other screen sizes. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
@@ -20,110 +21,108 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
 	android:orientation="horizontal"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	>
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" android:layout_marginTop="25dip">
+ <ImageButton
+        android:id="@+id/quotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/quotes" 
+        android:src="@xml/quotes" 
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button"
+        android:layout_weight="50"
+        android:background="#00000000"/>
+ <ImageButton
+        android:id="@+id/books"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/books"
+        android:src="@xml/books"
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="48dip"/>
+		android:layout_weight="50"
+		android:background="#00000000"/>
 </LinearLayout>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
 	android:orientation="horizontal"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	>
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" android:layout_marginTop="25dip">
+ <ImageButton
+        android:id="@+id/podcast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/quotes" 
+        android:src="@xml/podcast" 
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button"
+        android:layout_weight="50"
+        android:background="#00000000"/>
+ <ImageButton
+        android:id="@+id/calendar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/books"
+        android:src="@xml/calendar"
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="48dip"/>
+		android:layout_weight="50"
+		android:background="#00000000"/>
 </LinearLayout>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
 	android:orientation="horizontal"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	>
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" android:layout_marginTop="25dip">
+ <ImageButton
+        android:id="@+id/cimn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/quotes" 
+        android:src="@xml/cimn" 
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button"
+        android:layout_weight="50"
+        android:background="#00000000" />
+ <ImageButton
+        android:id="@+id/settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/books"
+        android:src="@xml/settings"
         android:gravity="center" 
-        android:layout_marginTop="25dip" 
-        android:layout_marginLeft="48dip"/>
+		android:layout_weight="50"
+		android:background="#00000000" />
 </LinearLayout>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
 	android:orientation="horizontal"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	>
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" android:layout_marginTop="20dip">
+ <ImageButton
+        android:id="@+id/bio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/biography" 
+        android:src="@xml/biography" 
         android:gravity="center" 
-        android:layout_marginTop="46dip" android:layout_marginLeft="10dip"/>
- <Button
-        android:id="@+id/button"
+        android:layout_weight="50"
+        android:background="#00000000"/>
+ <ImageButton
+        android:id="@+id/contactus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/twitter"
+        android:src="@xml/contactus"
         android:gravity="center" 
-        android:layout_marginTop="46dip" android:layout_marginLeft="10dip"/>
+		android:layout_weight="50"
+		android:background="#00000000"/>
 </LinearLayout>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
 	android:orientation="horizontal"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	>
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" android:layout_marginTop="5dip">
+ <ImageButton
+        android:id="@+id/twitter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/biography" 
+        android:src="@xml/twitter" 
         android:gravity="center" 
-        android:layout_marginTop="7dip" android:layout_marginLeft="10dip"/>
- <Button
-        android:id="@+id/button"
+        android:layout_weight="50" android:background="#00000000"/>
+ <ImageButton
+        android:id="@+id/facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/twitter"
+        android:src="@xml/facebook"
         android:gravity="center" 
-        android:layout_marginTop="7dip" android:layout_marginLeft="10dip"/>
+		android:layout_weight="50"
+		android:background="#00000000"/>
 </LinearLayout>
 </LinearLayout>
