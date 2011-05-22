@@ -19,96 +19,122 @@
 
 <RelativeLayout       
 	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content" android:layout_marginTop="10dip">
- <Button
-        android:id="@+id/button"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" android:layout_marginTop="15dip">
+ <ImageButton
+        android:id="@+id/quotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:background="@xml/quotes" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button2"
+        android:src="@xml/quotes" 
+         android:gravity="center" 
+		android:layout_weight="50"
+		android:background="#00000000" android:layout_marginLeft="20dip"/>
+ <ImageButton
+        android:id="@+id/books"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button2"
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button3"
-        android:layout_marginLeft="35dip"/>    
+        android:src="@xml/books" 
+        android:layout_toRightOf="@+id/quotes" 
+        android:gravity="center" 
+		android:layout_weight="50"
+		android:background="#00000000" android:layout_marginLeft="20dip"/>
+ <ImageButton 
+ 		android:layout_width="wrap_content" 
+ 		android:layout_height="wrap_content" 
+ 		android:src="@xml/cimn" 
+ 		android:layout_toRightOf="@+id/books" 
+ 		android:layout_alignTop="@+id/books" 
+ 		android:layout_alignBottom="@+id/books" 
+ 		android:id="@+id/cimn"
+ 		android:gravity="center" 
+		android:layout_weight="50"
+		android:background="#00000000" android:layout_marginLeft="20dip">
+</ImageButton>
+ <ImageButton 
+	 android:layout_width="wrap_content" 
+ 	 android:src="@xml/biography" 
+ 	 android:layout_height="wrap_content" 
+ 	 android:id="@+id/bio" 
+ 	 android:layout_toRightOf="@+id/cimn"
+ 	 android:gravity="center"
+ 	 android:layout_weight="50"
+ 	 android:background="#00000000" android:layout_marginLeft="20dip" android:layout_marginTop="10dip">
+ </ImageButton>
+  <ImageButton 
+	 android:layout_width="wrap_content"
+ 	 android:src="@xml/contactus" 
+ 	 android:layout_height="wrap_content" 
+ 	 android:id="@+id/contactus" 
+ 	 android:layout_toRightOf="@+id/cimn"
+ 	 android:gravity="center"
+	 android:layout_alignTop="@+id/books" 
+ 	 android:layout_alignBottom="@+id/books" 
+ 	 android:layout_weight="50"
+ 	 android:background="#00000000" android:layout_marginLeft="20dip" android:layout_marginTop="50dip">
+ </ImageButton>
+    
 
 </RelativeLayout>
 
-<RelativeLayout       
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content" android:layout_marginTop="10dip">
- <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" 
-        android:background="@xml/quotes" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button" 
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button2"
-        android:layout_marginLeft="35dip"/>
- <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/books" 
-        android:layout_toRightOf="@+id/button3"
-        android:layout_marginLeft="35dip"/>    
+<RelativeLayout 
+	android:id="@+id/relativeLayout1" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:layout_marginTop="15dip">
+
+<ImageButton 
+    android:layout_width="wrap_content" 
+    android:src="@xml/podcast" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/podcast" 
+    android:background="#00000000" android:layout_marginLeft="20dip">
+</ImageButton>
+
+<ImageButton 
+    android:layout_width="wrap_content" 
+    android:src="@xml/calendar" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/calendar"
+   	android:layout_toRightOf="@+id/podcast" 
+ 	android:layout_alignTop="@+id/books" 
+ 	android:layout_alignBottom="@+id/books"
+    android:background="#00000000" android:layout_marginLeft="20dip">
+</ImageButton>
+   
+<ImageButton 
+    android:layout_width="wrap_content" 
+    android:src="@xml/settings" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/settings"
+    android:layout_toRightOf="@+id/calendar" 
+ 	android:layout_alignTop="@+id/books" 
+ 	android:layout_alignBottom="@+id/books" 
+    android:background="#00000000" android:layout_marginLeft="20dip">
+</ImageButton>
+
+ <ImageButton 
+	 android:layout_width="wrap_content" 
+ 	 android:src="@xml/twitter" 
+ 	 android:layout_height="wrap_content" 
+ 	 android:id="@+id/facebook" 
+ 	 android:layout_toRightOf="@+id/settings"
+ 	 android:gravity="center"
+ 	 android:layout_weight="50"
+ 	 android:background="#00000000" 
+ 	 android:layout_marginLeft="20dip" android:layout_marginTop="10dip">
+ </ImageButton>
+  <ImageButton 
+	 android:layout_width="wrap_content"
+ 	 android:src="@xml/facebook" 
+ 	 android:layout_height="wrap_content" 
+ 	 android:id="@+id/facebook" 
+ 	 android:layout_toRightOf="@+id/settings"
+ 	 android:gravity="center"
+	 android:layout_alignTop="@+id/books" 
+ 	 android:layout_alignBottom="@+id/books" 
+ 	 android:layout_weight="50"
+ 	 android:background="#00000000" 
+ 	 android:layout_marginLeft="20dip" android:layout_marginTop="55dip">
+ </ImageButton>
 
 </RelativeLayout>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
-	android:orientation="horizontal"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:layout_marginTop="5dip">
- <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" 
-        android:background="@xml/biography"/>
- <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/twitter"/>
- <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/twitter"/>
- <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@xml/twitter"/>
-</LinearLayout>
 </LinearLayout>
