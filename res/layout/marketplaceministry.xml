@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView 
+    android:layout_height="wrap_content" 
+    android:id="@+id/title" android:layout_width="fill_parent" android:gravity="center" android:textSize="25dip" android:textStyle="bold" android:text="MARKETPLACE MINISTRY">
+</TextView>
+
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="400dip">
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:id="@+id/quote1"
+	android:text="There is a divine principle that God established when he made man upon the earth and gave him dominion over all things concerning earth.  “God will do nothing upon the earth without man’s participation.”  Adam and Eve lost that full authority by their disobedience to God.  Jesus came to earth and became God manifest in a human body.  Jesus, by obedience even to death on the cross and resurrection from the dead, restored to all mankind in Christ original participation with authority and dominion.  That is why the Church can be the determining factor for what happens or doesn’t happen on the earth." 
+	android:textSize="15dip">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/quote1"
+    android:id="@+id/signature"
+	android:gravity="right" android:text="-Dr. Bill Hamon" android:textSize="15dip" android:textStyle="bold">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/signature"
+    android:id="@+id/quote2"
+	android:text="This is the time, more than ever, for the saints of God to get free of hindrances, bad habits and limitations that keep us from our destiny.  Knowing Christ Jesus only as Savior, Healer, Baptizer, Provider, etc. is no longer sufficient!  We must now know Him also as King of kings, Lord of our lives and the Commander of the Lord's army." 
+	android:textSize="15dip" android:layout_height="wrap_content">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/quote2"
+    android:id="@+id/signature1"
+	android:textSize="15dip" android:text="-Dr. Bill Hamon" android:textStyle="bold" android:gravity="right">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/signature1"
+    android:id="@+id/quote3"
+	android:text="God wants to demonstrate, now, through His Church, that Christ Jesus has spoiled the principalities and powers, making a mockery of them, and that He is the rightful King of kings and Lord of lords (Colossians 2:15; 1Timothy 6:15; Revelation 19:15-16).  He is assuring this generation of the Church that we can drive out and subdue all the “isms” of this world as we co-labor with Christ in making the kingdoms of this world to become the Kingdom of our Lord and His Christ." 
+	android:textSize="15dip">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/quote3"
+    android:id="@+id/signature2"
+	android:gravity="right" android:text="-Dr. Bill Hamon" android:textSize="15dip" android:textStyle="bold">
+	</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/signature2"
+    android:id="@+id/quote4"
+	android:text="Break your silent covenant with the devil, that says “If you leave me alone, i’ll leave you alone!” He is a deceiver and liar!" 
+	android:textSize="15dip">
+</TextView>
+<TextView 
+ 	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical" 
+    android:layout_marginTop="10dip" 
+    android:scrollbarStyle="outsideInset" 
+    android:scrollbarAlwaysDrawVerticalTrack="true" 
+    android:layout_below="@+id/quote4"
+    android:id="@+id/signature3"
+	android:text="-Dr. Bill Hamon" android:textSize="15dip" android:gravity="right" android:textStyle="bold">
+	</TextView>
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>
