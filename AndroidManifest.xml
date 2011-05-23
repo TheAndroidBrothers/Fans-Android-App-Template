@@ -35,7 +35,7 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".myMenu"
+        <activity android:name=".quotesApostolicReform"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.NoTitleBar"
                   >
@@ -45,12 +45,52 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".quotesCategories"
+        <activity android:name=".quotesProphetic"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.NoTitleBar"
                   >
             <intent-filter>
                 <action android:name="com.theandroidbrothers.fans.app.PROPHETICMOV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".quotesSpiritualGifts"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="com.theandroidbrothers.fans.app.SPIRITUALGIFTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".quotesMarketPlace"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="com.theandroidbrothers.fans.app.MARKETPLACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".quotesMomHamon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="com.theandroidbrothers.fans.app.MOMHAMON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".quotesOthers"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="com.theandroidbrothers.fans.app.OTHERS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

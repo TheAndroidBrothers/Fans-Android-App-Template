@@ -34,13 +34,16 @@ public class quotesCategories extends ListActivity {
 					startActivity(new Intent("com.theandroidbrothers.fans.app.PROPHETICMOV"));
 					break;
 				case 2:
-					startActivity(new Intent("com.theandroidbrothers.fans.app.APOSTOLIC"));
+					startActivity(new Intent("com.theandroidbrothers.fans.app.SPIRITUALGIFTS"));
 					break;
 				case 3:
-					startActivity(new Intent("com.theandroidbrothers.fans.app.PROPHETICMOV"));
+					startActivity(new Intent("com.theandroidbrothers.fans.app.MARKETPLACE"));
 					break;
 				case 4:
-					startActivity(new Intent("com.theandroidbrothers.fans.app.PROPHETICMOV"));
+					startActivity(new Intent("com.theandroidbrothers.fans.app.MOMHAMON"));
+					break;
+				case 5:
+					startActivity(new Intent("com.theandroidbrothers.fans.app.OTHERS"));
 					break;
 				default:
 					Toast.makeText(getApplicationContext(), "No Category yet, Sorry. :-(", 2000).show();
@@ -52,6 +55,6 @@ public class quotesCategories extends ListActivity {
 	}
 	// Category List Array
 	static final String[] Categories = new String[]{
-		"Apostolic Reformation", "Prophetic Movement", "Spiritual Gifts", "Marketplace Ministry", "Mom Hamon Quotes", "Category 6", "Category 7", "Category 8", "Category 9", "Category 10", "Category 11"
+		"Apostolic Reformation", "Prophetic Movement", "Spiritual Gifts", "Marketplace Ministry", "Mom Hamon Quotes", "Other Quotes", "Category 7", "Category 8", "Category 9", "Category 10", "Category 11"
 	};
 }

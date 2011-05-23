@@ -70,6 +70,7 @@ public final class R {
         public static final int prophetic=0x7f030006;
         public static final int spiritualgifts=0x7f030007;
         public static final int splash=0x7f030008;
+        public static final int testlist=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f050001;
